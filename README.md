@@ -76,20 +76,21 @@ The analysis spans the full data pipeline: **SQL extraction → Python EDA → P
 
 ### 1. Revenue & Seasonality
 
-![Revenue Trend](outputs/visualizations/01_revenue_trend.png)
+![Revenue Trend](python_analysis/outputs/visualizations/01_revenue_trend.png
+)
 
 - Revenue grew from near-zero in late 2016 to **~R$ 700K/month** by mid-2018
 - **Spring and summer** consistently outperform autumn and winter by 35–55%
 - November 2017 spike (likely Black Friday) is the single highest order volume month
 - Low seasons (Sep–Feb) present a targeting opportunity, not an inevitable dip
 
-![Seasonal Revenue](outputs/visualizations/12_seasonal_revenue_analysis.png)
+![Seasonal Revenue](python_analysis/outputs/visualizations/12_seasonal_revenue_analysis.png)
 
 ---
 
 ### 2. Category Performance
 
-![Top Categories](outputs/visualizations/02_top_categories.png)
+![Top Categories](python_analysis/outputs/visualizations/02_top_categories.png)
 
 - **Bed, Bath & Table** leads revenue at R$ 796K — driven by high order volume
 - **Health & Beauty** and **Computers & Accessories** follow closely
@@ -99,23 +100,23 @@ The analysis spans the full data pipeline: **SQL extraction → Python EDA → P
 
 ### 3. Delivery Performance
 
-![Delivery Distribution](outputs/visualizations/06_delivery_time_distribution.png)
+![Delivery Distribution](python_analysis/outputs/visualizations/06_delivery_time_distribution.png)
 
 - Median delivery: **10 days** · Average: **12 days** (right-skewed — outliers up to 209 days exist)
 - Delivery time improved dramatically from **54 days avg in Aug 2016** to **under 8 days by late 2018**
 
-![Monthly Delivery Trend](outputs/visualizations/10_monthly_avg_delivery_time.png)
+![Monthly Delivery Trend](python_analysis/outputs/visualizations/10_monthly_avg_delivery_time.png)
 
 - **Winter deliveries average 14.7 days** vs. **9.2 days in summer** — logistics strain is seasonal
 
-![Seasonal Delivery](outputs/visualizations/11_seasonal_delivery_time_analysis.png)
+![Seasonal Delivery](python_analysis/outputs/visualizations/11_seasonal_delivery_time_analysis.png)
 
 ---
 
 ### 4. Geographic Delivery Gaps
 
-![Worst States](outputs/visualizations/11_worst_performing_states.png)
-![Delivery Heatmap](outputs/visualizations/03_delivery_heatmap.png)
+![Worst States](python_analysis/outputs/visualizations/11_worst_performing_states.png)
+![Delivery Heatmap](python_analysis/outputs/visualizations/03_delivery_heatmap.png)
 
 | State | Avg Delivery (days) | Late Rate | Avg Rating |
 |---|---|---|---|
@@ -131,8 +132,8 @@ The analysis spans the full data pipeline: **SQL extraction → Python EDA → P
 
 ### 5. Delivery → Satisfaction Correlation
 
-![Review by Delivery](outputs/visualizations/06_review_by_delivery_time.png)
-![Review Score Comparison](outputs/visualizations/12_review_score_comparison.png)
+![Review by Delivery](python_analysis/outputs/visualizations/06_review_by_delivery_time.png)
+![Review Score Comparison](python_analysis/outputs/visualizations/12_review_score_comparison.png)
 
 | Delivery Speed | Avg Review Score |
 |---|---|
@@ -148,7 +149,7 @@ The analysis spans the full data pipeline: **SQL extraction → Python EDA → P
 
 ### 6. Correlation Matrix
 
-![Correlation Matrix](outputs/visualizations/05_correlation_matrix.png)
+![Correlation Matrix](python_analysis/outputs/visualizations/05_correlation_matrix.png)
 
 Key relationships:
 - `delivery_time` ↔ `review_score`: **-0.30** (moderate negative — faster = happier)
@@ -173,7 +174,7 @@ Key relationships:
 
 ### 8. Day-of-Week Effect
 
-![Day of Week](outputs/visualizations/13_avg_delivery_time_by_dayofweek.png)
+![Day of Week](python_analysis/outputs/visualizations/13_avg_delivery_time_by_dayofweek.png)
 
 Orders placed on **Thursday–Friday** take ~1.5 days longer than Monday orders — likely due to weekend warehouse closures delaying dispatch.
 
