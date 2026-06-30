@@ -15,6 +15,8 @@
 
 </div>
 
+*Part of a portfolio of business-impact data projects — see [my profile](https://github.com/haseeb774) for ML forecasting and customer intelligence systems.*
+
 ---
 
 ## 📌 Project Overview
@@ -268,5 +270,5 @@ Data Analyst · Python · SQL · Power BI
 ---
 
 <div align="center">
-<i>If this project helped you or gave you ideas, consider leaving a ⭐</i>
+<i>Need this kind of customer or logistics analysis for your own business? <a href="mailto:haseeb16001@gmail.com">Get in touch</a>.</i>
 </div>
